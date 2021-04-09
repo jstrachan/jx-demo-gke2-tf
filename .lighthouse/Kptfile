@@ -1,11 +1,11 @@
 apiVersion: kpt.dev/v1alpha1
 kind: Kptfile
 metadata:
-    name: .lighthouse
+  name: .lighthouse
 upstream:
-    type: git
-    git:
-        commit: 8c433ccb341770d38f32dc5d420f209fdb3c11bf
-        repo: https://github.com/jenkins-x/jx3-pipeline-catalog
-        directory: /environment/.lighthouse
-        ref: master
+  type: git
+  git:
+    commit: 67ed80108714e34bc78e3b5bf9614debbe671bb2
+    repo: https://github.com/jenkins-x/jx3-pipeline-catalog
+    directory: /environment/.lighthouse
+    ref: master
